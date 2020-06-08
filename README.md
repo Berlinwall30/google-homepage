@@ -1,2 +1,1 @@
-# google-homepage
-Odin Project
+Emulate Google Homepage with working links

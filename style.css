@@ -1,0 +1,114 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: white;
+}
+.topbar {
+    padding: 17px 0px 0px 0px;
+    display: block;
+} 
+
+.topleft {
+    display: inline-block;
+}
+
+.topright {
+    display: block;
+    padding: 0px 20px 0px 0px;
+    float: right;
+}
+
+.topbar a {
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+    padding: 0px 0px 0px 15px;
+
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: block;
+    margin: 160px 0px 0px 0px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 275px;
+    height: auto;
+}
+
+
+.searchbox input {
+    width: 528px;
+    height: 38px;
+    border-radius: 50px;
+    border-color: rgb(198, 198, 198);
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 0px 10px 0px;
+    color: gray;
+    font-size: 20px;
+}
+
+.searchbox input:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgb(204, 204, 204);
+}
+
+.searchbutton input {
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;    
+    height: 37px;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
+}
+
+.searchbutton input:hover {
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+    border-width: 1px;
+}
+
+.bottombar {
+    background-color: rgb(235, 235, 235);
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.botleft {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+.botright {
+    display: block;
+    float: right;
+    margin: 0px 30px 0px 0px;
+}
+
+.bottombar a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    padding: 0px 0px 0px 27px;
+
+}
+
+.bottombar a:hover {
+    text-decoration: underline;
+}
